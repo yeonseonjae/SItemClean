@@ -1,0 +1,13 @@
+name: SItemClean
+version: '1.0'
+main: me.shark0822.sItemClean.SItemClean
+api-version: '1.20'
+commands:
+  itemclean:
+    permission: op
+    permission-message:
+    description: 아이템 청소 명령어
+    usage: /itemclean [reload / clean]
+    aliases:
+    - iclean
+    - ic
